@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  
+  font-family: "Open Sans", sans-serif;
+  
+  background: linear-gradient(90deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
+  
+  /*min-height: 100vh;*/
+}
+
+#logo{
+  font-size: 22px;
+  line-height: 26px;
+
+  font-family: 'inter';
+}
+
+header{
+  width: 1006px;
+  height: 26px;
+
+  Margin: 65px auto 106px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;   
+
+  /* OK*/
+ }
+ 
+ nav { /*OK*/
+   display: flex;
+   justify-content: space-between;
+   align-items: center;    
+ }
+ 
+ ul { /*OK*/
+   display: flex;
+   list-style: none;
+   gap: 48px;
+ }
+ 
+ li a { /*OK*/
+   color: #1F1534;
+   text-decoration: none;
+
+   font-size: 18px;
+   line-height: 23px;
+ }
+ 
+ .sobre, .treinar{ /*OK*/
+   color: #1F1534;
+   opacity: 0.5;
+   
+ }
+
+ .home{ /*OK*/
+   font-weight: bold;
+   color: #1F1534;
+ }
+ 
+ .treinar:hover { /*OK*/
+   font-weight: bold;
+   opacity: 1;
+ }
+
+.sobre:hover {  /*OK*/
+   font-weight: bold;
+   opacity: 1;
+
+  
+ }
+.page {
+    width: 1281px;
+    height: 720px;
+    margin: 55px auto;
+
+    /*padding-top: 65px;*/ /*Comando está atrapalhando*/
+
+  }
+
+#hero{
+  width: 1009px;
+  height: 434px;
+
+  margin: 55px auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+  
+
+  h1, Ul {
+    font-family: "Mulish", NORMAL;
+  }
+  
+  h1 {
+    font-size: 49px;
+    line-height: 56px;
+    color: #1f1534;
+  
+    font-weight: normal;
+  
+    width: 490px;
+  }
+  
+  h1 span {
+    color: #89c5cc;
+    font-weight: bold;
+  }
+  
+  section{
+    width: 489px;
+    height: 236px;
+
+  }
+  section p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #7d7987;
+  
+    margin: 40px 50px 0px 1px;
+  }
+  
+  button {
+    font-family: "Open Sans", sans-serif;
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: normal;
+  
+    margin: 40px 338px 0px 0px;
+    
+    background: #69B99D;
+    border: 0;
+    padding: 14px 32px 15px 32px;
+    border-radius: 4px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  
+    cursor: pointer;
+  }
+  
+  button:hover {
+      background: #4EA788;
+  }
+  
+footer {
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+
+  width: 592px;
+  height: 28px;
+  margin: 82px auto;
+
+  font-size: 14px;
+  line-height: 28px;
+  
+  text-align: center;
+
+}
+
+  footer a {
+    font-weight: bold;
+    color:#000000;
+    text-decoration: none;
+    
+  }
+  
+#balls{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+ 
+  
